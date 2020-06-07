@@ -1,0 +1,29 @@
+:root{
+    --title-color:#322153;
+    --primary-color: #34CB78;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montaga', serif;
+}
+body{
+    background-color: #f0f0f5;
+    -webkit-font-smoothing:antialiased;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poly', serif;
+    color:var(--title-color);
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

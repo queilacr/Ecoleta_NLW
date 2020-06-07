@@ -9,6 +9,7 @@ nunjucks.configure("src/views", {
     noCache: true
 })
 
+//render: processar o html no servidor
 //req: requisição
 //res: resposta
 server.get("/", (req, res) => {
@@ -19,7 +20,7 @@ server.get("/create_point", (req, res) => {
     return res.render("create_point.html")
 })
 
-server.get("/search-results", (req, res) => {
+server.get("/search", (req, res) => {
     return res.render("search-results.html")
 })
 

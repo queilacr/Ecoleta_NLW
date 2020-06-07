@@ -1,6 +1,9 @@
 const express = require("express")
 const server = express()
 
+//pegando o banco de dados
+const db = require("./database/db.js")
+
 server.use(express.static("public"))
 
 const nunjucks = require("nunjucks")
